@@ -1,0 +1,446 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'OPPOSans-Ver2-Regular',Helvetica,Arial,sans-serif,system-ui;
+}
+
+#search {
+    margin-top: 12px;
+    margin-left: -250px;
+    cursor: pointer;
+}
+
+#userlogo {
+    cursor: pointer !important;
+}
+
+#cartlogo {
+    cursor: pointer !important;
+}
+
+
+#centerimg {
+    width: 87% !important;
+    height: 70vh !important;
+}
+
+.newprod_viewmoreprod {
+    list-style-type: none;
+    display: flex ;
+    flex-wrap: nowrap ;
+    align-items: center ;
+    margin-left: 65px ;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+#viewmoreprod {
+    display: flex;
+    margin-left: 950px;
+    color: darkgray;
+}
+
+#viewmoreprod :hover {
+    cursor: pointer;
+    color: black;
+}
+
+#buynow:hover {
+    background-color: grey !important;
+}
+
+#buynowlm:hover {
+    background-color: grey;
+}
+
+
+/* THIS IS LEFT FIRST IMG */
+
+.centerleftfirst {
+    display: flex;
+    margin-left: 100px;
+    margin-top: 3px;
+    height: 400px;
+    width: 655px;
+    background-color: rgb(250, 246, 246) ;
+    position: relative;
+}
+
+#imgl1 {
+    height: 50vh;
+    width: 50vh;
+    background: url(./center-left-1st.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer; 
+    display: inline-block;  
+}
+
+#detailsfirstleft {
+    position: absolute;
+    top: 250px;
+    background-color: rgba(240, 238, 238, 0.95);
+    margin-left: 10px;
+    font-size: medium;
+    border-radius: 10%;
+}
+
+#detailsfirstleft u:hover {
+    cursor: pointer;
+}
+
+#imgl1:hover {
+    height: 54vh;
+    width: 54vh;
+}
+
+/* THIS IS RIGHT FIRST IMG */
+ 
+.centerrightfirst {
+    display: flex;
+    margin-left: 760px;
+    margin-top: -400px;
+    height: 400px;
+    width: 660px;
+    background-color: rgb(250, 246, 246) ;
+    position: relative;
+}
+
+#imgr1 {
+    height: 50vh;
+    width: 50vh;
+    background: url(./center-right-1st.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;   
+}
+
+#detailsfirstright {
+    position: absolute;
+    top: 250px;
+    background-color: rgba(240, 238, 238, 0.95);
+    margin-left: 10px;
+    font-size: medium;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10%;
+}
+
+#detailsfirstright u:hover {
+    cursor: pointer;
+}
+
+#imgr1:hover {
+    height: 54vh;
+    width: 54vh;
+}
+
+/* THIS IS SECOND LEFT IMG */
+
+.centerleftsecond {
+    display: flex;
+    margin-left: 100px;
+    margin-top: 3px;
+    height: 400px;
+    width: 655px;
+    background-color: rgb(250, 246, 246) ;
+    position: relative;
+}
+
+#imgl2 {
+    height: 50vh;
+    width: 50vh;
+    background: url(./center-left-2nd.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer; 
+    display: inline-block;  
+}
+
+#detailssecondleft {
+    position: absolute;
+    top: 250px;
+    background-color: rgba(240, 238, 238, 0.95);
+    margin-left: 10px;
+    font-size: medium;
+    border-radius: 10%;
+}
+
+#detailssecondleft u:hover {
+    cursor: pointer;
+}
+
+#imgl2:hover {
+    height: 54vh;
+    width: 54vh;
+}
+
+/* THIS IS SECOND RIGHT IMG */
+
+.centerrightsecond {
+    display: flex;
+    margin-left: 760px;
+    margin-top: -400px;
+    height: 400px;
+    width: 660px;
+    background-color: rgb(250, 246, 246) ;
+    position: relative;
+}
+
+#imgr2 {
+    height: 50vh;
+    width: 50vh;
+    background: url(./center-right-2nd.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;   
+}
+
+#detailssecondright {
+    position: absolute;
+    top: 250px;
+    background-color: rgba(240, 238, 238, 0.95);
+    margin-left: 10px;
+    font-size: medium;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10%;
+}
+
+#detailssecondright u:hover {
+    cursor: pointer;
+}
+
+#imgr2:hover {
+    height: 54vh;
+    width: 54vh;
+}
+
+/* THIS IS LEFT THIRD IMG */
+
+.centerleftthird {
+    display: flex;
+    margin-left: 100px;
+    margin-top: 3px;
+    height: 400px;
+    width: 655px;
+    background-color: rgb(250, 246, 246) ;
+    position: relative;
+}
+
+#imgl3 {
+    height: 50vh;
+    width: 50vh;
+    background: url(./center-left-3rd.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer; 
+    display: inline-block;  
+}
+
+#detailsthirdleft {
+    position: absolute;
+    top: 250px;
+    background-color: rgba(240, 238, 238, 0.95);
+    margin-left: 10px;
+    font-size: medium;
+    border-radius: 10%;
+}
+
+#detailsthirdleft u:hover {
+    cursor: pointer;
+}
+
+#imgl3:hover {
+    height: 54vh;
+    width: 54vh;
+}
+
+/* THIS IS RIGHT THIRD IMG */
+
+.centerrightthird {
+    display: flex;
+    margin-left: 760px;
+    margin-top: -400px;
+    height: 400px;
+    width: 660px;
+    background-color: rgb(250, 246, 246) ;
+    position: relative;
+}
+
+#imgr3 {
+    height: 50vh;
+    width: 50vh;
+    background: url(./center-right-3rd.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;   
+}
+
+#detailsthirdright {
+    position: absolute;
+    top: 250px;
+    background-color: rgba(240, 238, 238, 0.95);
+    margin-left: 10px;
+    font-size: medium;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10%;
+}
+
+#detailsthirdright u:hover {
+    cursor: pointer;
+}
+
+#imgr3:hover {
+    height: 54vh;
+    width: 54vh;
+}
+
+
+/* FROM THIS POINT WE WILL BE WORKING ON SOME OF THE IMGS IN THE FORM OF CARDS */
+
+#mainoffer {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    flex: 1;
+}
+
+
+#offers {
+    margin-left: 100px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.allcardimg {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#offersarrow {
+    display: flex;
+    justify-content: end;
+    margin-top: -20px !important;
+}
+
+#offersarrow:hover {
+    cursor: pointer;
+    color: gray;
+}
+
+#cardimg:hover {
+    cursor: pointer;
+    height: 62vh;
+    width: 62vh;
+}
+
+
+/* THIS THE PART WHERE WE R GONNA PASS EXPLORE OPPO  */
+
+.exploreoppomain {
+    background-color: #d7d4d4;
+    height: 90vh;
+    width: 100%;
+    margin-top: 100px;
+}
+
+#exploreoppo {
+    display: flex;
+    top: 100px;
+    margin-left: 100px;
+    margin-bottom: 30px;
+    padding-top: 100px;
+}
+
+
+
+
+.carousel-container {
+    width: 100%; 
+     overflow: hidden;
+  }
+  
+  .carousel {
+    display: flex;
+    animation-duration: 30s; 
+    animation-name: auto-slide; 
+     animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+  }
+  
+  .card {
+    flex: 0 0 33.33%; 
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  @keyframes auto-slide {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+
+
+
+
+/* FOR SUPPORT PART */
+
+.opposuport {
+    margin-top: 100px;
+    margin-bottom: 10px;
+    display: flex;
+}
+.opposuport a{
+    display: flex;
+    /* justify-content: end; */
+    margin-left: 600px;
+    padding-top: 50px;
+    
+}
+.opposuport a #a1 {
+    margin-left: 100px;
+}
+.opposuport a #a2 {
+    margin-left: 222px;
+}
+.opposuport a #a3 {
+    margin-left: 303px;
+}
+.opposuport a #a4 {
+    margin-left: 252px;
+}
+.opposuport a #a5 {
+    margin-left: 240px;
+}
+
+
+#facebook {
+    margin-left: 750px;
+}
+#facebook:hover {
+    color: grey ;
+    cursor: pointer;
+}
+#twitter:hover {
+    color: grey ;
+    cursor: pointer;
+}
+#utube:hover {
+    color: grey ;
+    cursor: pointer;
+}
+#insta:hover {
+    color: grey ;
+    cursor: pointer;
+}
